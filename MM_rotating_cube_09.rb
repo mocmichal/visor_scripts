@@ -1,5 +1,4 @@
 # ===== Default : Default
-# ===== Default : Default
 @ka0 ||= 0
 @ka1 ||= 0
 @ka2 ||= 0
