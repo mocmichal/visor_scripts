@@ -1,4 +1,5 @@
 # ===== Default : Default
+# ===== Default : Default
 @ka0 ||= 0
 @ka1 ||= 0
 @ka2 ||= 0
@@ -26,9 +27,10 @@ def draw
 
   stroke 0,0,0
   #print (@ka4+50)*2.5,(@ka5+50)*2.5, (@ka6+50)*2.5
-  fill ((ka4+50)*2.5),((ka5+50)*2.5), ((ka6+50)*25)
+  fill ((ka4+50)*2.5),((ka5+50)*2.5), ((ka6+50)*2.5)
   #fill 255,255,255
   
   @size=10
   box ka3*@size
 end
+
